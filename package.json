@@ -15,11 +15,9 @@
     "name": "Alex Kozack",
     "url": "https://kozack.me"
   },
-  "bugs": "https://github.com/cawa-93/vite-plugin-dynamic-macros/issues",
-  "homepage": "https://github.com/cawa-93/vite-plugin-dynamic-macros/",
-  "repository": {
-    "url": "https://github.com/cawa-93/vite-plugin-dynamic-macros"
-  },
+  "bugs": "https://github.com/cawa-93/rollup-plugin-dynamic-macros/issues",
+  "homepage": "https://github.com/cawa-93/rollup-plugin-dynamic-macros/",
+  "repository": "github:cawa-93/rollup-plugin-dynamic-macros",
   "license": "MIT",
   "exports": {
     ".": {
