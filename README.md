@@ -33,3 +33,8 @@ const randomNum2 = 0.3576022563333674
 You also can pass arguments into macro function.
 
 ## TypeScript
+For TypeScript support you can easily define global functions.
+```ts
+// globals.d.ts
+declare function randomNumMacro() : number
+```
