@@ -1,11 +1,27 @@
 {
-  "name": "vite-dynamic-macros-plugin",
+  "name": "rollup-plugin-dynamic-macros",
   "version": "0.0.1",
   "type": "module",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  },
+
+  "description": "A minimalist vite plugin for creating compile-time macros",
+  "author": {
+    "email": "kozackunisoft@gmail.com",
+    "name": "Alex Kozack",
+    "url": "https://kozack.me"
+  },
+  "bugs": "https://github.com/cawa-93/vite-plugin-dynamic-macros/issues",
+  "homepage": "https://github.com/cawa-93/vite-plugin-dynamic-macros/",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "default": "./plugin.js"
+    }
   },
   "devDependencies": {
     "vite": "^4.0.0"

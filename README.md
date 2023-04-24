@@ -1,6 +1,6 @@
 # Dynamic macros
 
-A minimalist vite plugin for creating compile-time macros. 
+A minimalist Rollup and Vite plugin for creating compile-time macros. 
 
 ## How it works
 The work of the plugin is very similar to [`define`](https://vitejs.dev/config/shared-options.html#define). You define a pure function that returns some value. At compile time, each call to your function in the code will be evaluated and the inline value will be added to the assembly.
