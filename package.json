@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-dynamic-macros",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
 
   "scripts": {
@@ -23,6 +23,9 @@
       "default": "./plugin.js"
     }
   },
+  "files": [
+    "./plugin.js"
+  ],
   "devDependencies": {
     "vite": "^4.0.0"
   },
