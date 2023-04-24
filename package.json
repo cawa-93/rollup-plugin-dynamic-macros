@@ -17,6 +17,9 @@
   },
   "bugs": "https://github.com/cawa-93/vite-plugin-dynamic-macros/issues",
   "homepage": "https://github.com/cawa-93/vite-plugin-dynamic-macros/",
+  "repository": {
+    "url": "https://github.com/cawa-93/vite-plugin-dynamic-macros"
+  },
   "license": "MIT",
   "exports": {
     ".": {
